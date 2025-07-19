@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import React from 'react'
 import { Navigate, Route, Routes } from 'react-router'
@@ -40,6 +41,13 @@ console.log(isAuthenticated)
         <Route path="/orders" element={isAuthenticated?<MyOrders />:<Navigate to={'/login'}/>} />
       </Routes>
     </div>
+=======
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>App</div>
+>>>>>>> 0f4c781c06252095eeba3b09b226a91a0a254b2c
   )
 }
 
